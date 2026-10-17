@@ -1,91 +1,69 @@
 # PORTFOLIA
 
-A modern, fully responsive **personal portfolio website** for Lucky — Full Stack Developer & Creative Problem Solver.
+A modern, responsive portfolio website for Lucky — a Full Stack Developer and creative problem solver.
 
-🔗 **Live Repo:** https://github.com/Luckysaini01/PORTFOLIA
+This project is a single-page portfolio built with HTML, CSS, and JavaScript. It has a dark premium aesthetic, smooth-section navigation, animated content, and a mobile-friendly layout.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
+```text
+abs/
+├── index.html       # Main portfolio page
+├── README.md           # Project overview and instructions
+├── lucky.png           # Hero profile image
+└── .git/               # Git repository metadata
 ```
-PORTFOLIA/
-├── indexport.html      # The complete portfolio (single-file app)
-└── lucky_centered.png  # Hero photo — centered, enhanced portrait
-```
 
-Everything lives in **one HTML file** — HTML, CSS, and JavaScript are all inline, so there is no build step, no dependencies, and no framework to install. Just open `indexport.html` in a browser and it works.
+> Everything is designed to run as a simple static website with no install step or build tool required.
 
 ---
 
-## ✨ Features
+## Features
 
-- **Single-file architecture** — zero build tools, zero npm installs. Pure HTML + CSS + JS.
-- **Fully responsive** — desktop grid layout collapses to a single-column mobile layout at `768px`, with a hamburger menu for navigation.
-- **Hero section** — large name, role title, CTA buttons ("Get In Touch", "View Work") and a framed portrait photo (`lucky_centered.png`, scaled with `object-fit: cover` so it crops cleanly at every screen size).
-- **About section** — bio + animated stat cards (Years Experience, Projects Done, Happy Clients, Tech Stacks).
-- **Skills section** — categorized skill tags: Frontend (HTML5, CSS3, JavaScript, React, Tailwind, TypeScript), Backend (Python, Node.js...), and more.
-- **Projects section** — project cards with descriptions and GitHub links.
-- **Contact section** — email button, plus social links to GitHub, LinkedIn, X (Twitter), and Instagram.
-- **Smooth scrolling** — `scroll-behavior: smooth` for anchor navigation.
-- **Reveal animations** — sections fade/slide in as you scroll.
-- **Subtle grain overlay** — an SVG noise texture overlay for a premium dark aesthetic.
+- Responsive layout for desktop, tablet, and mobile devices
+- Fixed top navigation with hamburger menu on smaller screens
+- Hero section with CTA buttons and profile image
+- About, skills, projects, and contact sections
+- Premium dark theme with gold and purple accents
+- Smooth scrolling and subtle reveal animations
+- Single-file structure for easy editing and deployment
 
 ---
 
-## 🎨 Design
+## Run Locally
 
-| Detail | Value |
-|---|---|
-| Theme | Dark (`#0a0a0f` background) |
-| Accent colors | Gold `#d4a843`, Purple `#6c63ff` |
-| Headings font | Playfair Display (serif) |
-| Body font | DM Sans (300 weight) |
-| Cards/Surfaces | `#12121a` / `#1a1a26` with `#2a2a3e` borders |
+Open the file directly in your browser:
 
----
-
-## 🖼️ The Photo (`lucky_centered.png`)
-
-The hero portrait was post-processed for best presentation:
-
-- **Cropped & centered** — trimmed to the subject with even margins (verified symmetric: 78px left/right, 57px top/bottom on a 512×512 canvas)
-- **Enhanced** — brightness +8%, contrast +12%, saturation +20%
-- **Resized** — 1024×1024 → 512×512 with Lanczos resampling and transparent background preserved
-
----
-
-## 🚀 Getting Started
-
-### Run locally
 ```bash
-git clone https://github.com/Luckysaini01/PORTFOLIA.git
-cd PORTFOLIA
-# just open indexport.html in any browser
+cd abs
+start index.html
 ```
 
-### Deploy to GitHub Pages
-1. Repo **Settings → Pages**
-2. Source: **Deploy from a branch** → `main` → `/ (root)`
-3. Site goes live at `https://luckysaini01.github.io/PORTFOLIA/`
+You can also open the project folder in VS Code and use a simple local preview extension if needed.
 
 ---
 
-## 🛠️ Tech Used
+## Tech Stack
 
-- **HTML5** — semantic section structure
-- **CSS3** — CSS Grid + Flexbox, custom properties (variables), media queries, keyframe animations
-- **Vanilla JavaScript** — mobile nav toggle, scroll-reveal animations
-- **Google Fonts** — Playfair Display + DM Sans
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts
+
+---
+
+## Contact
+
+- Email: luckysaini09860986@gmail.com
+- GitHub: https://github.com/Luckysaini01
+- LinkedIn: https://www.linkedin.com/in/lucky-saini-ba1b99407/
 
 ---
 
-## 📬 Contact
+## Notes
 
-- **Email:** luckysaini09860986@gmail.com
-- **GitHub:** [Luckysaini01](https://github.com/Luckysaini01)
-- **LinkedIn:** [lucky-saini](https://www.linkedin.com/in/lucky-saini-ba1b99407/)
-
----
+This project is lightweight, easy to customize, and suitable for static hosting such as GitHub Pages or Netlify.
 
 © 2026 Lucky. All rights reserved.
